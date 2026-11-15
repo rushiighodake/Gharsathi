@@ -1,0 +1,6 @@
+{
+  "name": "GharSathi",
+  "description": "Household and residential community hub for society notices, maintenance helpdesk, trusted local helpers, amenity bookings, and neighbor lending.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

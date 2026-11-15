@@ -1,0 +1,454 @@
+{
+  "societyName": "Aaravya Greens Residency",
+  "residents": [
+    {
+      "id": "res-1",
+      "name": "Ananya Deshmukh",
+      "unit": "A-304",
+      "wing": "Wing A",
+      "role": "Secretary",
+      "phone": "+91 98204 11420",
+      "householdTags": [
+        "Tool Lending",
+        "Garden Club"
+      ],
+      "joinedAt": "2024-03-15"
+    },
+    {
+      "id": "res-2",
+      "name": "Rohan Kulkarni",
+      "unit": "B-102",
+      "wing": "Wing B",
+      "role": "Maintenance Lead",
+      "phone": "+91 98192 44810",
+      "householdTags": [
+        "EV Charging",
+        "Solar Committee"
+      ],
+      "joinedAt": "2024-05-02"
+    },
+    {
+      "id": "res-3",
+      "name": "Meera & Kabir Nair",
+      "unit": "A-201",
+      "wing": "Wing A",
+      "role": "Treasurer",
+      "phone": "+91 97650 33190",
+      "householdTags": [
+        "Pet Friendly",
+        "Book Swap"
+      ],
+      "joinedAt": "2023-11-20"
+    },
+    {
+      "id": "res-4",
+      "name": "Vikramaditya Joshi",
+      "unit": "C-405",
+      "wing": "Wing C",
+      "role": "Resident",
+      "phone": "+91 99230 78214",
+      "householdTags": [
+        "Carpool Baner",
+        "Badminton"
+      ],
+      "joinedAt": "2025-01-12"
+    },
+    {
+      "id": "res-5",
+      "name": "Priya & Arjun Sethi",
+      "unit": "B-403",
+      "wing": "Wing B",
+      "role": "Resident",
+      "phone": "+91 98331 50298",
+      "householdTags": [
+        "Tiffin Share",
+        "Kids Playgroup"
+      ],
+      "joinedAt": "2025-04-08"
+    }
+  ],
+  "notices": [
+    {
+      "id": "not-1",
+      "title": "Overhead Water Tank Cleaning — Wing A & Wing B",
+      "body": "Scheduled quarterly cleaning of the Wing A and B overhead domestic tanks will take place this Saturday between 10:00 AM and 2:00 PM. Please store sufficient drinking water the night before. Borewell backup will remain active for utility taps.",
+      "category": "Maintenance",
+      "authorId": "res-2",
+      "authorName": "Rohan Kulkarni",
+      "authorUnit": "B-102",
+      "pinned": true,
+      "acknowledgedBy": [
+        "res-1",
+        "res-3",
+        "res-4"
+      ],
+      "comments": [
+        {
+          "id": "com-1",
+          "authorId": "res-1",
+          "authorName": "Ananya Deshmukh",
+          "authorUnit": "A-304",
+          "text": "Notice also posted on the ground-floor lobby boards for senior residents.",
+          "createdAt": "2026-11-13T09:11:34.961Z"
+        }
+      ],
+      "createdAt": "2026-11-13T03:11:34.961Z"
+    },
+    {
+      "id": "not-2",
+      "title": "Sunday Courtyard Potluck & Composting Workshop",
+      "body": "Join neighbors at the central garden seating area at 5:30 PM this Sunday. Bring one homemade snack to share. Priya (B-403) will demonstrate kitchen waste bin setup for balconies.",
+      "category": "Events",
+      "authorId": "res-5",
+      "authorName": "Priya & Arjun Sethi",
+      "authorUnit": "B-403",
+      "pinned": false,
+      "acknowledgedBy": [
+        "res-1",
+        "res-2",
+        "res-3",
+        "res-5"
+      ],
+      "comments": [
+        {
+          "id": "com-2",
+          "authorId": "res-3",
+          "authorName": "Meera & Kabir Nair",
+          "authorUnit": "A-201",
+          "text": "Count us in! Bringing lemon rice and reusable plates.",
+          "createdAt": "2026-11-13T07:11:34.961Z"
+        }
+      ],
+      "createdAt": "2026-11-12T15:11:34.961Z"
+    },
+    {
+      "id": "not-3",
+      "title": "Main Gate Night Visitor Verification Update",
+      "body": "From 11:00 PM to 6:00 AM, delivery riders will drop parcels at the security desk unless residents approve direct entry via intercom. Please inform guests ahead of late arrivals.",
+      "category": "Security",
+      "authorId": "res-1",
+      "authorName": "Ananya Deshmukh",
+      "authorUnit": "A-304",
+      "pinned": true,
+      "acknowledgedBy": [
+        "res-2",
+        "res-4"
+      ],
+      "comments": [],
+      "createdAt": "2026-11-12T01:11:34.961Z"
+    },
+    {
+      "id": "not-4",
+      "title": "Quarterly Society Maintenance Receipts Available",
+      "body": "Receipts for Q3 maintenance contributions have been reconciled. Residents needing GST-format PDF copies for employer reimbursement can reply with their flat number.",
+      "category": "General",
+      "authorId": "res-3",
+      "authorName": "Meera & Kabir Nair",
+      "authorUnit": "A-201",
+      "pinned": false,
+      "acknowledgedBy": [
+        "res-1"
+      ],
+      "comments": [],
+      "createdAt": "2026-11-11T03:11:34.961Z"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tic-1",
+      "title": "Wing B Passenger Lift Door Sensor Delayed",
+      "description": "The infrared safety edge on the 3rd-floor landing takes 6–8 seconds to respond before closing smoothly.",
+      "category": "Lift & Common Area",
+      "location": "Wing B · Lift 1 (3rd Floor)",
+      "priority": "Urgent",
+      "status": "In Progress",
+      "reportedById": "res-5",
+      "reportedByName": "Priya & Arjun Sethi",
+      "reportedByUnit": "B-403",
+      "assignedTo": "Kone AMC Technician (Suresh)",
+      "resolutionNote": "Technician scheduled today at 4:00 PM for optical strip calibration.",
+      "createdAt": "2026-11-12T23:11:34.961Z",
+      "updatedAt": "2026-11-13T10:11:34.961Z"
+    },
+    {
+      "id": "tic-2",
+      "title": "Basement Pillar 14 LED Tube Flickering",
+      "description": "Two overhead LED battens near parking slot C-405 flicker continuously after 7 PM.",
+      "category": "Electrical",
+      "location": "Basement Parking · Bay P14",
+      "priority": "Normal",
+      "status": "Open",
+      "reportedById": "res-4",
+      "reportedByName": "Vikramaditya Joshi",
+      "reportedByUnit": "C-405",
+      "assignedTo": "Unassigned",
+      "resolutionNote": "",
+      "createdAt": "2026-11-12T19:11:34.961Z",
+      "updatedAt": "2026-11-12T19:11:34.961Z"
+    },
+    {
+      "id": "tic-3",
+      "title": "Courtyard Drip Irrigation Valve Leak",
+      "description": "Slow seepage at the brass elbow joint near the jasmine planter bed.",
+      "category": "Plumbing",
+      "location": "Central Courtyard · East Planter",
+      "priority": "Normal",
+      "status": "Open",
+      "reportedById": "res-1",
+      "reportedByName": "Ananya Deshmukh",
+      "reportedByUnit": "A-304",
+      "assignedTo": "Ramesh Pawar (Plumber)",
+      "resolutionNote": "",
+      "createdAt": "2026-11-12T08:11:34.961Z",
+      "updatedAt": "2026-11-12T12:11:34.961Z"
+    },
+    {
+      "id": "tic-4",
+      "title": "Main Gate Boom Barrier Remote Receiver Reset",
+      "description": "Intermittent signal delay when approaching from the exit ramp.",
+      "category": "Security Gate",
+      "location": "Main Entry Gate",
+      "priority": "Low",
+      "status": "Resolved",
+      "reportedById": "res-2",
+      "reportedByName": "Rohan Kulkarni",
+      "reportedByUnit": "B-102",
+      "assignedTo": "Security Vendor",
+      "resolutionNote": "Replaced 12V receiver antenna fuse and tested 10 cycles.",
+      "createdAt": "2026-11-09T19:11:34.961Z",
+      "updatedAt": "2026-11-11T17:11:34.961Z"
+    }
+  ],
+  "helpers": [
+    {
+      "id": "hlp-1",
+      "name": "Ramesh Pawar",
+      "specialty": "Plumber",
+      "phone": "+91 98221 67410",
+      "rateLabel": "Rs 350 / visit",
+      "availability": "Available",
+      "recommendedByUnit": "A-304",
+      "endorsements": [
+        "res-1",
+        "res-2",
+        "res-3",
+        "res-4"
+      ],
+      "notes": "Reliable for concealed mixer valves, pressure pumps, and bathroom grouting."
+    },
+    {
+      "id": "hlp-2",
+      "name": "Santosh Jadhav",
+      "specialty": "Electrician",
+      "phone": "+91 97640 88219",
+      "rateLabel": "Rs 300 / visit",
+      "availability": "Available",
+      "recommendedByUnit": "B-102",
+      "endorsements": [
+        "res-1",
+        "res-2",
+        "res-5"
+      ],
+      "notes": "Handles MCB tripping, inverter wiring, ceiling fans, and EV 16A sockets."
+    },
+    {
+      "id": "hlp-3",
+      "name": "Sunita Tai Kale",
+      "specialty": "Cook",
+      "phone": "+91 98502 19304",
+      "rateLabel": "Rs 4,500 / mo (1 meal)",
+      "availability": "Booked",
+      "recommendedByUnit": "B-403",
+      "endorsements": [
+        "res-3",
+        "res-5"
+      ],
+      "notes": "Home-style Maharashtrian and North Indian tiffins; morning slots 7–10 AM open."
+    },
+    {
+      "id": "hlp-4",
+      "name": "Kavita Shinde",
+      "specialty": "Housekeeping",
+      "phone": "+91 99214 55082",
+      "rateLabel": "Rs 3,200 / mo",
+      "availability": "Available",
+      "recommendedByUnit": "A-201",
+      "endorsements": [
+        "res-1",
+        "res-3"
+      ],
+      "notes": "Punctual, careful with wooden flooring and kitchen appliances."
+    },
+    {
+      "id": "hlp-5",
+      "name": "Imran Shaikh",
+      "specialty": "Carpenter",
+      "phone": "+91 98901 77345",
+      "rateLabel": "Rs 450 / visit",
+      "availability": "Available",
+      "recommendedByUnit": "C-405",
+      "endorsements": [
+        "res-2",
+        "res-4"
+      ],
+      "notes": "Soft-close hinges, sliding wardrobe tracks, mosquito mesh doors."
+    },
+    {
+      "id": "hlp-6",
+      "name": "Balu Mali",
+      "specialty": "Gardener",
+      "phone": "+91 98235 41092",
+      "rateLabel": "Rs 400 / balcony",
+      "availability": "Off Duty",
+      "recommendedByUnit": "A-304",
+      "endorsements": [
+        "res-1",
+        "res-5"
+      ],
+      "notes": "Repotting, organic neem spray, and seasonal balcony pruning."
+    }
+  ],
+  "amenities": [
+    {
+      "id": "amn-clubhouse",
+      "name": "Clubhouse Lounge",
+      "capacity": "32 Guests",
+      "location": "Ground Block · Courtyard East",
+      "rateLabel": "Rs 1,200 / slot",
+      "rules": "Acoustic music only until 10:00 PM; kitchen pantry included.",
+      "imageKey": "clubhouse"
+    },
+    {
+      "id": "amn-terrace",
+      "name": "Rooftop Terrace Garden",
+      "capacity": "45 Guests",
+      "location": "Wing A · Level 8",
+      "rateLabel": "Rs 1,500 / slot",
+      "rules": "No open charcoal grills; please clear planters and seating after use.",
+      "imageKey": "terrace"
+    },
+    {
+      "id": "amn-guest",
+      "name": "Guest Suite 101",
+      "capacity": "2 Guests",
+      "location": "Wing B · First Floor",
+      "rateLabel": "Rs 950 / day",
+      "rules": "Max 4 consecutive days per flat per month; fresh linens provided.",
+      "imageKey": "guest_suite"
+    },
+    {
+      "id": "amn-court",
+      "name": "Badminton & EV Bay",
+      "capacity": "4 Players",
+      "location": "North Podium Court",
+      "rateLabel": "Complimentary",
+      "rules": "Non-marking court shoes required; 1 slot per household per day.",
+      "imageKey": "court"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bkg-1",
+      "amenityId": "amn-clubhouse",
+      "amenityName": "Clubhouse Lounge",
+      "residentId": "res-3",
+      "residentName": "Meera & Kabir Nair",
+      "residentUnit": "A-201",
+      "date": "2026-11-15",
+      "slot": "Evening (6pm-10pm)",
+      "purpose": "Monthly Society Book Circle",
+      "createdAt": "2026-11-12T17:11:34.961Z"
+    },
+    {
+      "id": "bkg-2",
+      "amenityId": "amn-terrace",
+      "amenityName": "Rooftop Terrace Garden",
+      "residentId": "res-5",
+      "residentName": "Priya & Arjun Sethi",
+      "residentUnit": "B-403",
+      "date": "2026-11-16",
+      "slot": "Afternoon (1pm-5pm)",
+      "purpose": "Family Tea Gathering",
+      "createdAt": "2026-11-13T01:11:34.961Z"
+    },
+    {
+      "id": "bkg-3",
+      "amenityId": "amn-guest",
+      "amenityName": "Guest Suite 101",
+      "residentId": "res-4",
+      "residentName": "Vikramaditya Joshi",
+      "residentUnit": "C-405",
+      "date": "2026-11-14",
+      "slot": "Morning (8am-12pm)",
+      "purpose": "Visiting Parents Stay",
+      "createdAt": "2026-11-12T07:11:34.961Z"
+    }
+  ],
+  "shareItems": [
+    {
+      "id": "shr-1",
+      "title": "Bosch 13mm Hammer Drill + Masonry Bits",
+      "description": "Available for weekend shelf or curtain rod installations. Includes wall plugs.",
+      "type": "Lend",
+      "category": "Tools",
+      "ownerId": "res-1",
+      "ownerName": "Ananya Deshmukh",
+      "ownerUnit": "A-304",
+      "status": "Available",
+      "claimedByUnit": "",
+      "createdAt": "2026-11-12T21:11:34.961Z"
+    },
+    {
+      "id": "shr-2",
+      "title": "6-Foot Aluminum Folding Step Ladder",
+      "description": "Lightweight 5-step ladder for ceiling fan cleaning or loft access.",
+      "type": "Lend",
+      "category": "Tools",
+      "ownerId": "res-2",
+      "ownerName": "Rohan Kulkarni",
+      "ownerUnit": "B-102",
+      "status": "Available",
+      "claimedByUnit": "",
+      "createdAt": "2026-11-12T09:11:34.961Z"
+    },
+    {
+      "id": "shr-3",
+      "title": "12 Ceramic Dinner Plates & Serving Bowls",
+      "description": "Extra matching set kept for society potlucks or family lunches.",
+      "type": "Lend",
+      "category": "Kitchen & Events",
+      "ownerId": "res-3",
+      "ownerName": "Meera & Kabir Nair",
+      "ownerUnit": "A-201",
+      "status": "Available",
+      "claimedByUnit": "",
+      "createdAt": "2026-11-11T21:11:34.961Z"
+    },
+    {
+      "id": "shr-4",
+      "title": "2 Terracotta Planters + Organic Potting Mix",
+      "description": "Downsizing balcony herbs; free to any neighbor who can pick them up.",
+      "type": "Give Away",
+      "category": "Garden",
+      "ownerId": "res-5",
+      "ownerName": "Priya & Arjun Sethi",
+      "ownerUnit": "B-403",
+      "status": "Available",
+      "claimedByUnit": "",
+      "createdAt": "2026-11-13T04:11:34.961Z"
+    },
+    {
+      "id": "shr-5",
+      "title": "Need 2 Folding Chairs for Saturday Evening",
+      "description": "Hosting grandparents for dinner and short on two dining chairs.",
+      "type": "Request",
+      "category": "Kitchen & Events",
+      "ownerId": "res-4",
+      "ownerName": "Vikramaditya Joshi",
+      "ownerUnit": "C-405",
+      "status": "Available",
+      "claimedByUnit": "",
+      "createdAt": "2026-11-13T08:11:34.961Z"
+    }
+  ]
+}
